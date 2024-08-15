@@ -68,19 +68,25 @@ nav ul li {
     align-items: center;
     flex-grow: 1;
     margin-inline: 20px;
-    background-image: url('/images/magnifying-glass.png');
-    padding-left: 30px;
-    background-repeat: no-repeat;
-    background-position: left 20px center;
+    position: relative;
     
 }
 
 .search-bar input {
     flex-grow: 1;
-    padding: 10px;
+    padding: 10px 10px 10px 40px;
     font-size: 1rem;
-    background-color: lightgrey;
+    background-color: #fff;
     border: none;
+}
+
+.search-bar input::before {
+    content: url('/images/magnifying-glass.png');
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
 }
 
 .search-button {
