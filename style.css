@@ -72,7 +72,7 @@ nav ul li {
 }
 
 .search-bar::before{
-    content: url('/images/magnifying-glass.png');
+    background-image: url('/images/magnifying-glass.png');
     position: absolute;
     left: 10px;
     top: 50%;
