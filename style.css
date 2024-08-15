@@ -91,7 +91,8 @@ nav ul li {
 }
 
 .login-button{
-    border-right: 1px solid gray;
+    padding: 10px 0;
+    border-left: 1px solid gray;
 }
 
 .login-buttons {
