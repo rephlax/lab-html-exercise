@@ -76,7 +76,7 @@ nav ul li {
     flex-grow: 1;
     padding: 10px 10px 10px 40px;
     font-size: 1rem;
-    background-color: #fff;
+    background-color: lightgrey;
     border: none;
 }
 
@@ -95,7 +95,6 @@ nav ul li {
     background-color: #ff5733;
     color: white;
     border: none;
-    border-radius: 5px;
 }
 
 .login-button{
@@ -111,9 +110,11 @@ nav ul li {
 }
 
 .plans-section {
+    display: flex;
     text-align: center;
     padding: 50px 20px;
     background-color: #fff;
+    justify-content: center;
 }
 
 .about-section img{
