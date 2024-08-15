@@ -75,7 +75,7 @@ nav ul li {
 }
 
 .search-bar input {
-    flex-grow: 1;
+    flex-grow: 2;
     padding: 10px 10px 10px 40px;
     font-size: 1rem;
     background-color: rgba(0,0,0,.05);
@@ -92,7 +92,6 @@ nav ul li {
 }
 
 .search-button {
-    margin-left: 10px;
     padding: 10px 15px;
     background-color: #fb3e44;
     color: white;
@@ -113,8 +112,7 @@ nav ul li {
 
 .login-buttons {
     display: flex;
-    margin-left: 10px;
-    padding: 20px 20px;
+    padding: 10px 20px;
 }
 
 .plans-section {
