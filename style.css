@@ -100,11 +100,12 @@ nav ul li {
 }
 
 .login-button{
-    padding: 10px 0;
+    padding: 10px 10px;
     border: 1px solid lightgray;
 }
 
 .join-button {
+    padding: 10px 10px;
     border: 1px lightgray solid;
     border-right: none;
 }
