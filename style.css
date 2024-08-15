@@ -26,8 +26,20 @@ nav ul li{
     margin: 0 10px;
 }
 
+.btn {
+    all: unset;
+    outline: revert;
+    box-sizing: border-box;
+    display: inline-block;
+    cursor: pointer;
+}
+
 form{
     display: inline-block;
+}
+
+form input{
+    padding: 5px;
 }
 
 h1{
