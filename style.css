@@ -108,6 +108,7 @@ nav ul li {
     padding: 10px 10px;
     border: 1px lightgray solid;
     border-right: none;
+    transform: translate(1px);
 }
 
 .login-buttons {
