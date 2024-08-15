@@ -4,6 +4,10 @@ body{
     box-sizing: border-box;
 }
 
+a{
+    all: unset;
+}
+
 .header-top {
     display: flex;
     justify-content: space-between;
@@ -66,7 +70,7 @@ h1{
     background-color: red;
     border: none;
     cursor: pointer;
-    box-shadow: 10px 10px 0px 0px rgba(255,0,0,0.3);
+    box-shadow: 5px 5px 0px 0px rgba(255,0,0,0.3);
 }
 
 .black-heart{
