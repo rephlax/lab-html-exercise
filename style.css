@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
 body {
     margin: 0;
     padding: 0;
-    font-family: Arial, sans-serif;
+    font-family: 'Poppins';
     box-sizing: border-box;
 }
 
@@ -28,9 +30,9 @@ a {
     align-items: center;
 }
 
-.header-top-left img{
+.black-heart {
     width: 20px;
-    height: 10px;
+    margin-right: 1rem;
 }
 
 .header-top-left p {
@@ -76,7 +78,7 @@ nav ul li {
     flex-grow: 1;
     padding: 10px 10px 10px 40px;
     font-size: 1rem;
-    background-color: lightgrey;
+    background-color: rgba(0,0,0,.05);
     border: none;
 }
 
@@ -92,7 +94,7 @@ nav ul li {
 .search-button {
     margin-left: 10px;
     padding: 10px 15px;
-    background-color: #ff5733;
+    background-color: #fb3e44;
     color: white;
     border: none;
 }
@@ -110,7 +112,6 @@ nav ul li {
 .login-buttons {
     margin-left: 10px;
     padding: 20px 20px;
-    border-radius: 5px;
 }
 
 .plans-section {
@@ -118,7 +119,7 @@ nav ul li {
     flex-direction: column;
     text-align: center;
     padding: 50px 20px;
-    background-color: #fff;
+    background-color: rgba(232,217,217,.3);
     align-items: center;
 }
 
@@ -130,10 +131,10 @@ nav ul li {
 .plans-btn{
     padding: 5px 10px;
     color: white;
-    background-color: red;
+    background-color: #FB3B49;
     border: none;
     cursor: pointer;
-    box-shadow: 5px 5px 0px 0px rgba(255,0,0,0.3);
+    box-shadow: 8px 8px 0 rgba(251,59,73,.2);
 }
 
 .plans-buttons {
@@ -146,7 +147,6 @@ nav ul li {
 section {
     padding: 50px 20px;
     text-align: center;
-    background-color: #f9f9f9;
 }
 
 .org-section {
