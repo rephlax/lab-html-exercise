@@ -28,6 +28,11 @@ a {
     align-items: center;
 }
 
+.header-top-left img{
+    width: 10px;
+    height: 5px;
+}
+
 .header-top-left p {
     margin-left: 10px;
     font-weight: bold;
@@ -53,7 +58,8 @@ nav ul li {
 }
 
 .header-bottom img {
-    height: 50px;
+    height: 20px;
+    width: 30px;
 }
 
 .search-bar {
@@ -84,6 +90,10 @@ nav ul li {
     border-radius: 5px;
 }
 
+.login-button{
+    border-right: 1px solid gray;
+}
+
 .login-buttons {
     margin-left: 10px;
     padding: 10px 15px;
@@ -91,14 +101,15 @@ nav ul li {
     border-radius: 5px;
 }
 
-.login-buttons:first-child {
-    border-right: 1px gray solid;
-}
-
-.plans-sections {
+.plans-section {
     text-align: center;
     padding: 50px 20px;
     background-color: #fff;
+}
+
+.about-section img{
+    height: 50px;
+    width: 50px;
 }
 
 .plans-btn{
