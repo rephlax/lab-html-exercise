@@ -99,12 +99,17 @@ nav ul li {
 
 .login-button{
     padding: 10px 0;
+    border: 1px solid lightgray;
+}
+
+.join-button {
+    border: 1px lightgray solid;
+    border-right: none;
 }
 
 .login-buttons {
     margin-left: 10px;
     padding: 20px 20px;
-    border: 1px lightgray solid;
     border-radius: 5px;
 }
 
@@ -135,7 +140,7 @@ nav ul li {
     padding: 20px 40px;
     border-radius: 5px;
     text-decoration: none;
-    gap: 20px;
+    gap: 50px;
 }
 
 section {
