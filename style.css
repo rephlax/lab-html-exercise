@@ -73,13 +73,9 @@ nav ul li {
 
 .search-bar::before{
     background-image: url('/images/magnifying-glass.png');
-    position: absolute;
-    left: 10px;
-    top: 50%;
-    transform: translate(-50%);
-    width: 20px;
-    height: 20px;
-    padding-right: 10px;
+    padding: 12px 24px 12px 53px;
+    background-repeat: no-repeat;
+    background-position: left 20px center;
 }
 
 .search-bar input {
