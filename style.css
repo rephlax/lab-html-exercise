@@ -100,18 +100,19 @@ nav ul li {
 }
 
 .login-button{
-    padding: 10px 10px;
+    padding: 10px 20px;
     border: 1px solid lightgray;
 }
 
 .join-button {
-    padding: 10px 10px;
+    padding: 10px 20px;
     border: 1px lightgray solid;
     border-right: none;
-    margin-right: -1px;
+    margin-right: -2px;
 }
 
 .login-buttons {
+    display: flex;
     margin-left: 10px;
     padding: 20px 20px;
 }
