@@ -126,6 +126,7 @@ h1 {
 .lg-article {
     font-size: 1rem;
     width: 400px;
+    line-height: 1.6;
 }
 
 .about-section {
@@ -139,6 +140,7 @@ h1 {
 .sm-article {
     font-size: 0.775rem;
     width: 600px;
+    line-height: 1.4;
 }
 
 .about-section img{
@@ -201,6 +203,7 @@ section {
 
 .org-section-cards p {
     font-size: 0.8rem;
+    line-height: 1.8;
 }
 
 .org-section-cards h3 {
