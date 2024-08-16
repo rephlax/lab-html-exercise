@@ -57,7 +57,6 @@ nav ul li {
     justify-content: space-between;
     align-items: center;
     padding-inline: 20px;
-    gap: 10px;
 }
 
 .header-bottom img {
@@ -107,7 +106,6 @@ nav ul li {
 
 .login-buttons {
     display: flex;
-    padding: 10px 20px;
 }
 
 .plans-section {
