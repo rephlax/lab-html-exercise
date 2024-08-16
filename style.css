@@ -191,7 +191,7 @@ section {
 
 .org-section-cards div {
     flex: 1;
-    max-width: 220px;
+    width: 200px;
     text-align: left;
 }
 
