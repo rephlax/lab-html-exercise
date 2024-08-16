@@ -125,8 +125,13 @@ nav ul li {
 }
 
 h1 {
-    font-size: 2rem;
+    font-size: 3rem;
     font-weight: bold;
+}
+
+.lg-article {
+    font-size: 1rem;
+    width: 300px;
 }
 
 .about-section img{
