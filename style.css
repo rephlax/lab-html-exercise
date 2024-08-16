@@ -124,6 +124,11 @@ nav ul li {
     align-items: center;
 }
 
+h1 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
 .about-section img{
     height: 250px;
     width: 250px;
