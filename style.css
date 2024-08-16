@@ -82,8 +82,9 @@ nav ul li {
     border: none;
 }
 
-.search-bar input::before {
+.search-bar::before {
     content: url('/images/magnifying-glass.png');
+    position: absolute;
     left: 10px;
     top: 50%;
     transform: translateY(-50%);
@@ -154,6 +155,8 @@ h1 {
 
 .about-section h2 {
     font-size: 2rem;
+    background-color: #fce2c2;
+    padding-inline: 20px;
 }
 
 .plans-btn{
