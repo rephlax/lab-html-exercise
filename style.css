@@ -198,6 +198,10 @@ section {
     font-size: 0.725rem;
 }
 
+.org-section-cards h3 {
+    color: #FB3B49;
+}
+
 .org-section-cards img {
     width: 40px;
     height: 20px;
