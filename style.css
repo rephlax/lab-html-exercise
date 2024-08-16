@@ -137,6 +137,7 @@ h1 {
 .sm-article {
     font-size: 0.725rem;
     width: 600px;
+    text-align: center;
 }
 
 .about-section img{
