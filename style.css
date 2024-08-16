@@ -104,7 +104,7 @@ nav ul li {
 }
 
 .join-button {
-    padding: 10px 40px;
+    padding: 5px 20px;
     border: 1px lightgray solid;
     border-right: none;
     margin-right: -2px;
@@ -138,7 +138,13 @@ nav ul li {
     box-shadow: 8px 8px 0 rgba(251,59,73,.2);
 }
 
+.join-btn {
+    padding: 10px 40px;
+    border: none;
+}
+
 .plans-buttons {
+    margin-block: 40px;
     padding: 20px 40px;
     text-decoration: none;
 }
