@@ -134,6 +134,12 @@ h1 {
     width: 400px;
 }
 
+.about-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .sm-article {
     font-size: 0.725rem;
     width: 600px;
