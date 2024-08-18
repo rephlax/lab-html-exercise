@@ -22,7 +22,8 @@ a {
 .header-top {
     display: flex;
     justify-content: space-between;
-    padding-inline: 20px;
+    padding-inline: 25px;
+    border-bottom: 1px solid lightgray;
 }
 
 .header-top-left {
@@ -57,6 +58,7 @@ nav ul li {
     justify-content: space-between;
     align-items: center;
     padding-inline: 20px;
+    margin-top: 20px;
 }
 
 .header-bottom img {
